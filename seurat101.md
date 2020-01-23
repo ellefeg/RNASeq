@@ -33,6 +33,8 @@ Once you integrate 2+ samples, you'll need to tell Seurat whether you want to wo
 
 # Seurat resources
 
+See also [this readme](https://github.com/ellefeg/RNASeq/blob/master/README.md)
+
 * Seurat has many [tutorials](https://satijalab.org/seurat/vignettes.html); of particular interest is the [basic clustering vignette](https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html), the [label transfer vignette](https://satijalab.org/seurat/v3.1/integration.html) and the [control vs. stimulated PBMCs vignette](https://satijalab.org/seurat/v3.1/immune_alignment.html). Also potentially of interest are the data downloads linked with the various vignettes, e.g. the [Microwell Mouse Cell Atlas data](https://satijalab.org/seurat/v3.1/mca.html). See also this useful ["cheat sheet" of Seurat commands](https://satijalab.org/seurat/essential_commands.html).
 
 * Ming Tang is a bioinformatician at Harvard. He often discusses scRNASeq on [twitter](https://twitter.com/tangming2005). He also has a [blog](https://divingintogeneticsandgenomics.rbind.io/) and a very useful [scRNAseq tutorial](https://crazyhottommy.github.io/scRNA-seq-workshop-Fall-2019/index.html). This tute runs over the same basic content as the Seurat vignettes, but also includes useful links, explanations and "DIY versions" of different plots. He also has his own long list of scRNASeq resources on [github](https://github.com/crazyhottommy/scRNAseq-analysis-notes), and a [separate repo of genomics tools and resources](https://github.com/crazyhottommy/getting-started-with-genomics-tools-and-resources).
@@ -45,7 +47,7 @@ Once you integrate 2+ samples, you'll need to tell Seurat whether you want to wo
 
 * [And another](https://hbctraining.github.io/scRNA-seq/lessons/sc_exercises_clustering_analysis.html)
 
-* [Hemberg lab scRNASeq course notes](https://github.com/hemberg-lab/scRNA.seq.course) or in [book format](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html)
+* [Hemberg lab scRNASeq course notes](https://github.com/hemberg-lab/scRNA.seq.course) or in [book format](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html) - Chapter 9 is about Seurat
 
 **Other software**
 
@@ -60,3 +62,5 @@ Once you integrate 2+ samples, you'll need to tell Seurat whether you want to wo
 * SingleCellExperiment is a generic R object type used for scRNASeq experiments. The Seurat object is a different object type that is based off SCE types, but is explored in a different way. [This blog post](http://lazappi.id.au/2018/06/exploring-the-sce-verse/) is an explainer for the SCE object
 
 * [Cerebro](https://github.com/romanhaa/Cerebro/blob/master/README.md) "allows users to interactively visualize various parts of single cell transcriptomics data without requiring bioinformatic expertise". You can export a Seurat object in the right format using `cerebroApp` R package, and then do downstream visualisation. See also [the paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz877/5640500).
+
+* [schex](https://github.com/SaskiaFreytag/schex), a tool to plot `FeaturePlot()` as hexagons, avoiding the problem of overlapping cells.
