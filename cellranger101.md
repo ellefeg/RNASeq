@@ -1,3 +1,7 @@
+Laura Grice
+
+_Adapted from 20191213_HowToScrnaseq.Rmd_
+
 ## Appendix 2: Cellranger 101
 
 Cellranger is software released by 10x Genomics for dealing with scRNAseq output. It contains tools for various stages of the pre-processing and analysis pathway, and overlaps somewhat with Seurat. Some of the Cellranger tools include (but are not limited to):
