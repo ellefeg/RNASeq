@@ -1,5 +1,6 @@
-Laura Grice
 **A general list of (sc)RNASeq resources**
+
+Laura Grice
 
 # scRNASeq 101
 
