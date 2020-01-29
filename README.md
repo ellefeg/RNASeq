@@ -53,6 +53,8 @@ Laura Grice
 
 * **False discovery control:** [Korthauer et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/?term=A+practical+guide+to+methods+controlling+false+discoveries+in+computational+biology)
 
+* [Tian et al. 2019](https://www.nature.com/articles/s41592-019-0425-8) - Benchmarking single cell RNA-sequencing analysis pipelines using mixture control experiments - *"Here, we generated a realistic benchmark experiment that included single cells and admixtures of cells or RNA to create ‘pseudo cells’ from up to five distinct cancer cell lines. In total, 14 datasets were generated using both droplet and plate-based scRNA-seq protocols. We compared 3,913 combinations of data analysis methods for tasks ranging from normalization and imputation to clustering, trajectory analysis and data integration. Evaluation revealed pipelines suited to different types of data for different tasks."*
+
 * A [Medium post](https://medium.com/@HeleneOMICtools/your-top-3-single-cell-rna-sequencing-analysis-tools-221b65fbc57e) ranking various scRNASeq analysis tools.
 
 * A Twitter quest for benchmarking papers:
