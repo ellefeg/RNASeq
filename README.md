@@ -19,25 +19,70 @@ Laura Grice
 
 * [Hemberg lab scRNASeq course notes](https://github.com/hemberg-lab/scRNA.seq.course) or in [book format](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html)
 
+* [DataCamp interactive course](https://www.datacamp.com/courses/single-cell-rna-seq-workflows-in-r?tap_a=5644-dce66f&tap_s=411670-1f1ebc) - Single-Cell RNASeq workflows in R (Chapter 1 - What is Single-Cell RNA-Seq is free)
+
 * [A book about scRNASeq in Bioconductor](https://osca.bioconductor.org/), which mostly focusses on using SingleCellExperiment objects. It contains tutorials/code but also the thinking behind the different analyses. The book was presented in a [Nature Methods publication](https://www.nature.com/articles/s41592-019-0654-x)
+
+* [scRNA-tool](https://www.scrna-tools.org/) database - "a catalogue of tools analysing single-cell RNA sequencing data"
+
+
+* [Stuart & Satika 2019](https://www.nature.com/articles/s41576-019-0093-7) - Integrative single-cell analysis. *"In this Review, we discuss the recent advances in the collection and integration of different data types at single-cell resolution with a focus on the integration of gene expression data with other types of single-cell measurement"*
+
+* [Holland et al. 2019](https://www.biorxiv.org/content/10.1101/753319v1) - Robustness and applicability of functional genomics tools on scRNA-seq data. *"Our analyses suggest that bulk functional genomics tools can be applied to scRNA-seq data, outperforming dedicated single cell tools. Furthermore we provide a benchmark for further methods development by the community."*
 
 # Benchmarking
 
-* Benchmarking papers looking at (1) different clustering tools, by [Freytag et al. 2018](https://f1000research.com/articles/7-1297), [Duo et al. 2018](https://f1000research.com/articles/7-1141) and [Menon 2017](https://academic.oup.com/bfg/article/17/4/240/4728639) or (2) cell type assignment tools, by [Abdelaal et al. 2018](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1795-z). See also this [Medium post](https://medium.com/@HeleneOMICtools/your-top-3-single-cell-rna-sequencing-analysis-tools-221b65fbc57e) ranking various scRNASeq analysis tools.
-
 * Genome Biology [Benchmarking issue](https://www.biomedcentral.com/collections/benchmarkingstudies)
 
-* [Essential guidelines for computational method benchmarking](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1738-8)
+* Weber et al. 2019: [Essential guidelines for computational method benchmarking](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1738-8)
 
-* A quest for benchmarking papers
+* **Dimensionality reduction:** [Sun et al. 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1898-6)
+
+* **Clustering:** [Freytag et al. 2018](https://f1000research.com/articles/7-1297)
+
+* **Clustering:** [Duo et al. 2018](https://f1000research.com/articles/7-1141)
+
+* **Clustering:** [Menon 2017](https://academic.oup.com/bfg/article/17/4/240/4728639)
+
+* **Clustering:** [Krzak et al. 2019](https://www.frontiersin.org/articles/10.3389/fgene.2019.01253/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Genetics&id=486077)
+
+* **Clustering:** [Qi et al. 2019](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz062/5528236)
+
+* **Cell type assignment:** [Abdelaal et al. 2018](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1795-z)
+
+* **False discovery control:** [Korthauer et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/?term=A+practical+guide+to+methods+controlling+false+discoveries+in+computational+biology)
+
+
+* A [Medium post](https://medium.com/@HeleneOMICtools/your-top-3-single-cell-rna-sequencing-analysis-tools-221b65fbc57e) ranking various scRNASeq analysis tools.
+
+* A quest for benchmarking papers:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dear <a href="https://twitter.com/hashtag/academictwitter?src=hash&amp;ref_src=twsrc%5Etfw">#academictwitter</a>, I&#39;m looking for a list of benchmarks for single cell RNA-seq data analysis. Generally, so normalization, DE, clustering, cell assignment, etc. I&#39;m OFC aware of the &quot;Methods comparisons&quot; section in <a href="https://twitter.com/seandavis12?ref_src=twsrc%5Etfw">@seandavis12</a>&#39;s awesome list (<a href="https://t.co/lT7DivJdAZ">https://t.co/lT7DivJdAZ</a>) ..</p>&mdash; Mark Robinson (@markrobinsonca) <a href="https://twitter.com/markrobinsonca/status/1220048175320440832?ref_src=twsrc%5Etfw">January 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 # Clustering
 
-* Thank you to Ming Tang's resources for [general bioinformatics](https://github.com/crazyhottommy/getting-started-with-genomics-tools-and-resources) and [RNASeq](https://github.com/crazyhottommy/RNA-seq-analysis) - several of of these links were  taken from these lists
+* Thank you to Ming Tang's resources for [general bioinformatics](https://github.com/crazyhottommy/getting-started-with-genomics-tools-and-resources) and [RNASeq](https://github.com/crazyhottommy/RNA-seq-analysis) and also to [awesome single cell](https://github.com/seandavi/awesome-single-cell) - several of of these links were  taken from these lists
 
-* Clustering benchmark by [Freytag et al. 2018](https://f1000research.com/articles/7-1297) or [Duo et al. 2018](https://f1000research.com/articles/7-1141) or [Menon 2017](https://academic.oup.com/bfg/article/17/4/240/4728639)
+* See "Benchmarking" section above for Benchmarking papers
+
+* Benchmarking: [Machine Learning and Statistical Methods for Clustering Single Cell RNA-sequencing Data](https://github.com/kuanglab/single-cell-review)
+
+
+* [Kiselev et al. 2019](https://www.nature.com/articles/s41576-018-0088-9) - Challenges in unsupervised clustering of single-cell RNA-seq data
+
+* [Lee & Hemberg 2019](https://www.nature.com/articles/s41592-019-0534-4) - Supervised clustering for single-cell analysis
+
+* PanoView - [Hu et al. 2019](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007040) - PanoView: An iterative clustering method for single-cell RNA sequencing data
+
+* SOUP - [Zhu et al. 2019](https://www.pnas.org/content/116/2/466) - Semisoft clustering of single-cell data
+
+* SAME-Clustering - [Huh et al. 2019](https://academic.oup.com/nar/article/48/1/86/5644992) - SAME-clustering: Single-cell Aggregated Clustering via Mixture Model Ensemble 
+
+* [Petegrosso et al. 2019](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz063/5519426) - Machine learning and statistical methods for clustering single-cell RNA-sequencing data 
+
+* VPAC - [Chen et al. 2019](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2742-4) - VPAC: Variational projection for accurate clustering of single-cell transcriptomic data
+
+* PARC - [Stassen et al. 2020](https://www.ncbi.nlm.nih.gov/pubmed/31971583?dopt=Abstract&utm_source=dlvr.it&utm_medium=twitter) - PARC: ultrafast and accurate clustering of phenotypic data of millions of single cells.
 
 * Seurat [clustering tutorial](https://satijalab.org/seurat/v3.0/pbmc3k_tutorial.html) and [paper](www.cell.com/abstract/S0092-8674(15)00549-8). Seurat implements graph-based clustering. Clustering embeds cells in a graph structure (e.g a k-nearest neighbour - KNN - graph); edges are drawn between cells with similar feature expression patterns. Then the graph is partitioned into highly inter-connected "quasi-cliques" or "communities". The KNN graph is built based on euclidian distance in PCA space (hence you specify `reduction = "pca"` in `FindNeighbors`). Edge weights between cells are refined based on shared overlap in their local neighbourhood (Jaccard similarty. Then we cluster cells. Cells are iteratively grouped together. When we run `FindClusters`, we need to set the resolution value. This is the granularity of the clusters - the higher the value, the more clusters you get. The bigger the dataset, the more resolution you probably want to use. The Seurat authors recommend a range of 0.4 - 1.2 for ~3000 cell datasets. (For reference, I have 1223 cells in `treat`)
 
@@ -46,7 +91,13 @@ SC3 achieves high accuracy and robustness by consistently integrating different 
 
 * IKAP [paper](https://academic.oup.com/gigascience/article/8/10/giz121/5579995) and [github](https://github.com/NHLBI-BCB/IKAP). Runs based on Seurat object. For a range of PCs and K-values, performs clustering and determines the optimal combination.
 
+* DC3 - [Zeng et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/31601804?dopt=Abstract&utm_source=dlvr.it&utm_medium=twitter) - DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data.
 
+* [Kim et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/30137247) - Impact of similarity metrics on single-cell RNA-seq data clustering.
+
+* [GOAE and GONN](https://www.biorxiv.org/content/10.1101/437020v1) - Combining Gene Ontology with Deep Neural Networks to Enhance the Clustering of Single Cell RNA-Seq Data
+
+* [celaref](http://bioconductor.org/packages/release/bioc/html/celaref.html) - Single-cell RNAseq cell cluster labelling by reference
 
 * [sincell](http://bioconductor.org/packages/devel/bioc/html/sincell.html): R package for the statistical assessment of cell state hierarchies from single-cell RNA-seq data
 
@@ -68,7 +119,43 @@ SC3 achieves high accuracy and robustness by consistently integrating different 
 
 * [Compare clusterings for single-cell sequencing bioconductor package](http://bioconductor.org/packages/devel/bioc/html/clusterExperiment.html).The goal of this package is to encourage the user to try many different clustering algorithms in one package structure. We give tools for running many different clusterings and choices of parameters. We also provide visualization to compare many different clusterings and algorithm tools to find common shared clustering patterns.
 
+* Galapagos - [Wagner 2019](https://www.biorxiv.org/content/10.1101/770388v1) - Straightforward clustering of single-cell RNA-Seq data with t-SNE and DBSCAN. *"Here, I propose Galapagos, a simple and effective clustering workflow based on t-SNE and DBSCAN that does not require a gene selection step."*
 
+* [clusterExperiment](https://github.com/epurdom/clusterExperiment) - [R] - Functions for running and comparing many different clusterings of single-cell sequencing data. Meant to work with SCONE and slingshot.
+
+* Some other (more general-purpose?) packages that include clustering are: [ascend](https://github.com/IMB-Computational-Genomics-Lab/ascend) (R), [CALISTA](https://github.com/CABSEL/CALISTA) (R), [celda](https://github.com/campbio/celda) (R), [Cell Ranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) (10x Genomics - linux)
+
+* [CountClust](https://github.com/kkdey/CountClust) - [R] - Functions for fitting Grade-of-Membership models, also known as "Topic models", to RNA-seq counts. These models generalize clustering methods to allow that each cell may belong to more than one cluster/topic.
+
+* [dropClust](https://github.com/debsin/dropClust) - [R/Python] - Efficient clustering of ultra-large scRNA-seq data.
+
+* [GiniClust](https://github.com/lanjiangboston/GiniClust) - [Python/R] - GiniClust is a clustering method implemented in Python and R for detecting rare cell-types from large-scale single-cell gene expression data. GiniClust can be applied to datasets originating from different platforms, such as multiplex qPCR data, traditional single-cell RNAseq or newly emerging UMI-based single-cell RNAseq, e.g. inDrops and Drop-seq.
+
+* [netSmooth](https://github.com/BIMSBbioinfo/netSmooth) - [R] - netSmooth is a network-diffusion based method that uses priors for the covariance structure of gene expression profiles on scRNA-seq experiments in order to smooth expression values. We demonstrate that netSmooth improves clustering results of scRNA-seq experiments from distinct cell populations, time-course experiments, and cancer genomics.
+
+* [pcaReduce](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0984-y) - [R] - hierarchical clustering of single cell transcriptional profiles.
+
+* [SAKE](https://github.com/naikai/sake) - [R] - Single-cell RNA-Seq Analysis and Clustering Evaluation.
+
+* [SC3](https://github.com/hemberg-lab/sc3) - [R] - SC3 is a tool for the unsupervised clustering of cells from single cell RNA-Seq experiments.
+
+* [SCell](https://github.com/diazlab/SCell) - [matlab] - SCell is an integrated software tool for quality filtering, normalization, feature selection, iterative dimensionality reduction, clustering and the estimation of gene-expression gradients from large ensembles of single-cell RNA-seq datasets. SCell is open source, and implemented with an intuitive graphical interface.
+
+* [SCENIC](https://github.com/aertslab/SCENIC) - [R] - SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)
+
+* SCMarker - [R] - SCMarker is a method performing ab initial marker gene set selection from scRNA-seq data to achieve improved clustering/cell-typing results. SCMarker: ab initio marker selection for single cell transcriptome profiling.
+
+* SCUBA - [matlab/R] - SCUBA stands for "Single-cell Clustering Using Bifurcation Analysis." SCUBA is a novel computational method for extracting lineage relationships from single-cell gene expression data, and modeling the dynamic changes associated with cell differentiation.
+
+SIMLR - [R, matlab] - SIMLR (Single-cell Interpretation via Multi-kernel LeaRning) learns an appropriate distance metric from the data for dimension reduction, clustering and visualization. SIMLR is capable of separating known subpopulations more accurately in single-cell data sets than do existing dimension reduction methods.
+
+sincera - [R] - R-based pipeline for single-cell analysis including clustering and visualization.
+
+scClustViz - An interactive R Shiny tool for visualizing single-cell RNAseq clustering results from common analysis pipelines (SingleCellExperiment or Seurat, currently). Its main goal is two-fold: A: to help select a biologically appropriate resolution or K from clustering results by assessing differential expression between the resulting clusters; and B: help annotate cell types and identify marker genes. See the demo app here! scClustViz can also be used to generate R data packages for sharing published data - see the website for details and a list of published datasets.
+
+SeuratWizard - a web-based (wizard style) interactive R Shiny application to perform guided single-cell RNA-seq data analysis and clustering. demo
+
+SeuratV3Wizard - a web-based (wizard style) interactive R Shiny application to perform guided single-cell RNA-seq data analysis and clustering based on Seurat v3. demo
 
 **theory**
 
