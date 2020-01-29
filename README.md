@@ -12,13 +12,9 @@ Laura Grice
 
 * Ming Tang is a bioinformatician at Harvard. He often discusses scRNASeq on [twitter](https://twitter.com/tangming2005). He also has a [blog](https://divingintogeneticsandgenomics.rbind.io/)
 
-**what is scRNASeq?**
-
 * An extensive [Introduction to single-cell RNA-seq analysis](http://barc.wi.mit.edu/education/hot_topics/scRNAseq_March2019/SingleCellRNAseq.pdf) from MIT (powerpoint PDF) which introduces the theory (with a bit of code) through scRNASeq technology, experimental design, analysis pipeline, pseudotime...
 
 * The [DataCamp interactive course](https://www.datacamp.com/courses/single-cell-rna-seq-workflows-in-r?tap_a=5644-dce66f&tap_s=411670-1f1ebc) is mostly paid but Chapter 1 (What is Single-Cell RNASeq) is free
-
-**workshops and tutorials**
 
 * Ming Tang's very useful [scRNAseq tutorial](https://crazyhottommy.github.io/scRNA-seq-workshop-Fall-2019/index.html). Most of the tutorial covers the basic Seurat vignette, but it also includes useful links, explanations and "DIY versions" of different plots.
 
@@ -30,8 +26,6 @@ Laura Grice
 * [Hemberg lab scRNASeq course notes](https://github.com/hemberg-lab/scRNA.seq.course) or in [book format](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html)
 
 * eBook: [scRNASeq in Bioconductor](https://osca.bioconductor.org/). Mostly focusses on using SingleCellExperiment objects. It contains tutorials/code but also the thinking behind the different analyses. The book was presented in a [Nature Methods publication](https://www.nature.com/articles/s41592-019-0654-x).
-
-**papers**
 
 * [Stuart & Satika 2019](https://www.nature.com/articles/s41576-019-0093-7) - Integrative single-cell analysis. *"In this Review, we discuss the recent advances in the collection and integration of different data types at single-cell resolution with a focus on the integration of gene expression data with other types of single-cell measurement"*
 
@@ -81,9 +75,6 @@ Laura Grice
 * [Petegrosso et al. 2019](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz063/5519426) - Machine learning and statistical methods for clustering single-cell RNA-sequencing data 
 
 * [Kim et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/30137247) - Impact of similarity metrics on single-cell RNA-seq data clustering.
-
-
-**tools**
 
 * PanoView - [Hu et al. 2019](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007040) - PanoView: An iterative clustering method for single-cell RNA sequencing data
 
@@ -166,7 +157,7 @@ SeuratWizard - a web-based (wizard style) interactive R Shiny application to per
 
 SeuratV3Wizard - a web-based (wizard style) interactive R Shiny application to perform guided single-cell RNA-seq data analysis and clustering based on Seurat v3. demo
 
-**theory**
+**clustering theory**
 
 * [PCA, MDS, k-means, Hierarchical clustering and heatmaps](https://rpubs.com/crazyhottommy/PCA_MDS) by Ming Tang
 
@@ -188,7 +179,6 @@ SeuratV3Wizard - a web-based (wizard style) interactive R Shiny application to p
 * SingleCellExperiment is a generic R object type used for scRNASeq experiments. The Seurat object is a different object type that is based off SCE types, but is explored in a different way. [This blog post](http://lazappi.id.au/2018/06/exploring-the-sce-verse/) is an explainer for the SCE object
 
 * [Cerebro](https://github.com/romanhaa/Cerebro/blob/master/README.md) "allows users to interactively visualize various parts of single cell transcriptomics data without requiring bioinformatic expertise". You can export a Seurat object in the right format using `cerebroApp` R package, and then do downstream visualisation. See also [the paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz877/5640500).
-
 
 # Datasets and databases
 
