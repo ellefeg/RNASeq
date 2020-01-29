@@ -6,25 +6,32 @@ Laura Grice
 
 * [Awesome Single Cell](https://github.com/seandavi/awesome-single-cell) is a much more comprehensive version of this list, listing software packages, web portals/databases, key journal articles, researchers...
 
+* Ming Tang's lists of [scRNASeq resources](https://github.com/crazyhottommy/scRNAseq-analysis-notes) and [genomics tools and resources](https://github.com/crazyhottommy/getting-started-with-genomics-tools-and-resources)
+
+* [scRNA-tool](https://www.scrna-tools.org/) database - "a catalogue of tools analysing single-cell RNA sequencing data"
+
+* Ming Tang is a bioinformatician at Harvard. He often discusses scRNASeq on [twitter](https://twitter.com/tangming2005). He also has a [blog](https://divingintogeneticsandgenomics.rbind.io/)
+
+**what is scRNASeq?**
+
 * An extensive [Introduction to single-cell RNA-seq analysis](http://barc.wi.mit.edu/education/hot_topics/scRNAseq_March2019/SingleCellRNAseq.pdf) from MIT (powerpoint PDF) which introduces the theory (with a bit of code) through scRNASeq technology, experimental design, analysis pipeline, pseudotime...
+
+* The [DataCamp interactive course](https://www.datacamp.com/courses/single-cell-rna-seq-workflows-in-r?tap_a=5644-dce66f&tap_s=411670-1f1ebc) is mostly paid but Chapter 1 (What is Single-Cell RNASeq) is free
+
+**workshops and tutorials**
+
+* Ming Tang's very useful [scRNAseq tutorial](https://crazyhottommy.github.io/scRNA-seq-workshop-Fall-2019/index.html). Most of the tutorial covers the basic Seurat vignette, but it also includes useful links, explanations and "DIY versions" of different plots.
 
 * [SimpleSingleCell](https://bioconductor.org/packages/release/workflows/html/simpleSingleCell.html)
  - a step-by-step workflow for basic scRNASeq analysis
-
-* A blog post by Nikolay Oskolkov about general methods [to normalise scRNASeq data](https://towardsdatascience.com/how-to-normalize-single-cell-a438281ea654)
-
-* Ming Tang is a bioinformatician at Harvard. He often discusses scRNASeq on [twitter](https://twitter.com/tangming2005). He also has a [blog](https://divingintogeneticsandgenomics.rbind.io/) and a very useful [scRNAseq tutorial](https://crazyhottommy.github.io/scRNA-seq-workshop-Fall-2019/index.html). This tute runs over the same basic content as the Seurat vignettes, but also includes useful links, explanations and "DIY versions" of different plots. He also has his own long list of scRNASeq resources on [github](https://github.com/crazyhottommy/scRNAseq-analysis-notes), and a [separate repo of genomics tools and resources](https://github.com/crazyhottommy/getting-started-with-genomics-tools-and-resources).
 
 * The Broad Institute has published a long set of notes for an [scRNASeq workshop](https://broadinstitute.github.io/2019_scWorkshop/). Of particular interest is [section 9.4]((https://broadinstitute.github.io/2019_scWorkshop/data-wrangling-scrnaseq.html#beginning-with-seurat-httpsatijalab.orgseurat) which discuss Seurat.
 
 * [Hemberg lab scRNASeq course notes](https://github.com/hemberg-lab/scRNA.seq.course) or in [book format](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html)
 
-* [DataCamp interactive course](https://www.datacamp.com/courses/single-cell-rna-seq-workflows-in-r?tap_a=5644-dce66f&tap_s=411670-1f1ebc) - Single-Cell RNASeq workflows in R (Chapter 1 - What is Single-Cell RNA-Seq is free)
+* eBook: [scRNASeq in Bioconductor](https://osca.bioconductor.org/). Mostly focusses on using SingleCellExperiment objects. It contains tutorials/code but also the thinking behind the different analyses. The book was presented in a [Nature Methods publication](https://www.nature.com/articles/s41592-019-0654-x).
 
-* [A book about scRNASeq in Bioconductor](https://osca.bioconductor.org/), which mostly focusses on using SingleCellExperiment objects. It contains tutorials/code but also the thinking behind the different analyses. The book was presented in a [Nature Methods publication](https://www.nature.com/articles/s41592-019-0654-x)
-
-* [scRNA-tool](https://www.scrna-tools.org/) database - "a catalogue of tools analysing single-cell RNA sequencing data"
-
+**papers**
 
 * [Stuart & Satika 2019](https://www.nature.com/articles/s41576-019-0093-7) - Integrative single-cell analysis. *"In this Review, we discuss the recent advances in the collection and integration of different data types at single-cell resolution with a focus on the integration of gene expression data with other types of single-cell measurement"*
 
@@ -52,12 +59,14 @@ Laura Grice
 
 * **False discovery control:** [Korthauer et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/?term=A+practical+guide+to+methods+controlling+false+discoveries+in+computational+biology)
 
-
 * A [Medium post](https://medium.com/@HeleneOMICtools/your-top-3-single-cell-rna-sequencing-analysis-tools-221b65fbc57e) ranking various scRNASeq analysis tools.
 
-* A quest for benchmarking papers:
+* A Twitter quest for benchmarking papers:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dear <a href="https://twitter.com/hashtag/academictwitter?src=hash&amp;ref_src=twsrc%5Etfw">#academictwitter</a>, I&#39;m looking for a list of benchmarks for single cell RNA-seq data analysis. Generally, so normalization, DE, clustering, cell assignment, etc. I&#39;m OFC aware of the &quot;Methods comparisons&quot; section in <a href="https://twitter.com/seandavis12?ref_src=twsrc%5Etfw">@seandavis12</a>&#39;s awesome list (<a href="https://t.co/lT7DivJdAZ">https://t.co/lT7DivJdAZ</a>) ..</p>&mdash; Mark Robinson (@markrobinsonca) <a href="https://twitter.com/markrobinsonca/status/1220048175320440832?ref_src=twsrc%5Etfw">January 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+* Benchmarking: [Machine Learning and Statistical Methods for Clustering Single Cell RNA-sequencing Data](https://github.com/kuanglab/single-cell-review)
+
 
 # Clustering
 
@@ -65,20 +74,22 @@ Laura Grice
 
 * See "Benchmarking" section above for Benchmarking papers
 
-* Benchmarking: [Machine Learning and Statistical Methods for Clustering Single Cell RNA-sequencing Data](https://github.com/kuanglab/single-cell-review)
-
-
 * [Kiselev et al. 2019](https://www.nature.com/articles/s41576-018-0088-9) - Challenges in unsupervised clustering of single-cell RNA-seq data
 
 * [Lee & Hemberg 2019](https://www.nature.com/articles/s41592-019-0534-4) - Supervised clustering for single-cell analysis
+
+* [Petegrosso et al. 2019](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz063/5519426) - Machine learning and statistical methods for clustering single-cell RNA-sequencing data 
+
+* [Kim et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/30137247) - Impact of similarity metrics on single-cell RNA-seq data clustering.
+
+
+**tools**
 
 * PanoView - [Hu et al. 2019](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007040) - PanoView: An iterative clustering method for single-cell RNA sequencing data
 
 * SOUP - [Zhu et al. 2019](https://www.pnas.org/content/116/2/466) - Semisoft clustering of single-cell data
 
 * SAME-Clustering - [Huh et al. 2019](https://academic.oup.com/nar/article/48/1/86/5644992) - SAME-clustering: Single-cell Aggregated Clustering via Mixture Model Ensemble 
-
-* [Petegrosso et al. 2019](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz063/5519426) - Machine learning and statistical methods for clustering single-cell RNA-sequencing data 
 
 * VPAC - [Chen et al. 2019](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2742-4) - VPAC: Variational projection for accurate clustering of single-cell transcriptomic data
 
@@ -92,8 +103,6 @@ SC3 achieves high accuracy and robustness by consistently integrating different 
 * IKAP [paper](https://academic.oup.com/gigascience/article/8/10/giz121/5579995) and [github](https://github.com/NHLBI-BCB/IKAP). Runs based on Seurat object. For a range of PCs and K-values, performs clustering and determines the optimal combination.
 
 * DC3 - [Zeng et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/31601804?dopt=Abstract&utm_source=dlvr.it&utm_medium=twitter) - DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data.
-
-* [Kim et al. 2019](https://www.ncbi.nlm.nih.gov/pubmed/30137247) - Impact of similarity metrics on single-cell RNA-seq data clustering.
 
 * [GOAE and GONN](https://www.biorxiv.org/content/10.1101/437020v1) - Combining Gene Ontology with Deep Neural Networks to Enhance the Clustering of Single Cell RNA-Seq Data
 
@@ -199,6 +208,7 @@ See "List of single cell data and databases" on Lab Archives
 
 * How to perform [PCA in R](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/). More [PCA in R and Python](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/), with suggested plots.
 
+* A blog post by Nikolay Oskolkov about general methods [to normalise scRNASeq data](https://towardsdatascience.com/how-to-normalize-single-cell-a438281ea654)
 
 # Computing
 
