@@ -61,6 +61,10 @@ Laura Grice
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dear <a href="https://twitter.com/hashtag/academictwitter?src=hash&amp;ref_src=twsrc%5Etfw">#academictwitter</a>, I&#39;m looking for a list of benchmarks for single cell RNA-seq data analysis. Generally, so normalization, DE, clustering, cell assignment, etc. I&#39;m OFC aware of the &quot;Methods comparisons&quot; section in <a href="https://twitter.com/seandavis12?ref_src=twsrc%5Etfw">@seandavis12</a>&#39;s awesome list (<a href="https://t.co/lT7DivJdAZ">https://t.co/lT7DivJdAZ</a>) ..</p>&mdash; Mark Robinson (@markrobinsonca) <a href="https://twitter.com/markrobinsonca/status/1220048175320440832?ref_src=twsrc%5Etfw">January 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+* And a [Google Docs spreadsheet](https://docs.google.com/spreadsheets/d/1Gqn0eZ8oiNh8-9ovyh4D_ZsoWcKYoKTJ0C1AfrJrdRA/edit#gid=0) summarising the results:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">OK, my current list is 31 scRNA-seq (analysis method) benchmarks:<a href="https://t.co/gfan8Kupcp">https://t.co/gfan8Kupcp</a><br><br>I consolidated <a href="https://twitter.com/seandavis12?ref_src=twsrc%5Etfw">@seandavis12</a>&#39;s <a href="https://twitter.com/_lazappi_?ref_src=twsrc%5Etfw">@_lazappi_</a>&#39;s <a href="https://twitter.com/JMA_Data?ref_src=twsrc%5Etfw">@JMA_Data</a>&#39;s and went through the <a href="https://twitter.com/GenomeBiology?ref_src=twsrc%5Etfw">@GenomeBiology</a> benchmark issue.<br><br>Any others I missed? <a href="https://t.co/AEpHCWcYsS">https://t.co/AEpHCWcYsS</a></p>&mdash; Mark Robinson (@markrobinsonca) <a href="https://twitter.com/markrobinsonca/status/1221903274678333441?ref_src=twsrc%5Etfw">January 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 * Benchmarking: [Machine Learning and Statistical Methods for Clustering Single Cell RNA-sequencing Data](https://github.com/kuanglab/single-cell-review)
 
 
