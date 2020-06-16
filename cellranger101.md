@@ -15,6 +15,12 @@ Cellranger is software released by 10x Genomics for dealing with scRNAseq output
 
 For more about how I built the new mouse + zsgreen reference genome, see the `SCI_7dpi_notes` page on LabArchives.
 
+# cellranger count
+
+* When counting UMIs, Cell Ranger only consider reads that have a valid UMI and a valid 10x barcode. Further, Cell Ranger considers reads which meet all of the following criteria: (1) Has a MAPQ of 255, (2) Maps to exactly one gene (as shown in the GX tag of the BAM file alignment record), (3) Overlaps an exon by at least 50% in a way consistent with annotated splice junctions and strand annotation.
+* There are barcodes without cells inside the droplets; these are not kept in the final "cells" output
+* If a UMI is counted more than once, it will only count for a value of 1
+
 **count Output**
 
 The output of the `cellranger count` analysis will be contained in a folder called, surprisingly, `counts`, which in turn contains a subfolder called `outs`. It contains many different output files, including:
@@ -42,6 +48,6 @@ The first line summarises the dimensionality of the matrix: There are `33538` ge
 
 Note that most gene-cell combinations have a count value of 0; these have been omitted from this matrix to save disk space (hence, "sparse matrix")
 
-# aggr function
+# cellranger aggr
 
 By default, the reads from each GEM well are subsampled such that all GEM wells have the same effective sequencing depth, measured in terms of confidently mapped reads per cell
