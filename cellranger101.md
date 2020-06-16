@@ -15,7 +15,7 @@ Cellranger is software released by 10x Genomics for dealing with scRNAseq output
 
 For more about how I built the new mouse + zsgreen reference genome, see the `SCI_7dpi_notes` page on LabArchives.
 
-**Output**
+**count Output**
 
 The output of the `cellranger count` analysis will be contained in a folder called, surprisingly, `counts`, which in turn contains a subfolder called `outs`. It contains many different output files, including:
 
@@ -41,3 +41,7 @@ Seurat works with the `filtered_feature_bc_matrix` folder. There are three .gz f
 The first line summarises the dimensionality of the matrix: There are `33538` genes and `11769` cells in the matrix, and `24825783` non-zero entries. In rows 2 and 3 (and so on), the first number is the row (gene) index, the second number is the column (cell) index, and the third number is the count number. Thus, gene 33506 for cell 1 has a count of 4.
 
 Note that most gene-cell combinations have a count value of 0; these have been omitted from this matrix to save disk space (hence, "sparse matrix")
+
+# aggr function
+
+By default, the reads from each GEM well are subsampled such that all GEM wells have the same effective sequencing depth, measured in terms of confidently mapped reads per cell
