@@ -217,7 +217,7 @@ da_results %>%
 
 ## Step 5:Visualise neighbourhoods displaying DA
 
-To visualize DA results, we build an abstracted graph of neighbourhoods that we can superimpose on the single-cell embedding.
+_"To visualize DA results relating them to the embedding of single cells, we can build an abstracted graph of neighbourhoods that we can superimpose on the single-cell embedding. Here each node represents a neighbourhood, while edges indicate how many cells two neighbourhoods have in common. Here the layout of nodes is determined by the position of the index cell in the UMAP embedding of all single-cells. The neighbourhoods displaying singificant DA are colored by their log-Fold Change."_
 
 ```{r}
 myMilo <- buildNhoodGraph(myMilo)
@@ -227,3 +227,6 @@ plotUMAP(myMilo) + plotNhoodGraphDA(myMilo, da_results, alpha=0.05) +
 ```
 
 
+## Step 6: Additional visualisations
+
+See vignette: https://rawcdn.githack.com/MarioniLab/miloR/7c7f906b94a73e62e36e095ddb3e3567b414144e/vignettes/milo_gastrulation.html#5_Finding_markers_of_DA_populations
